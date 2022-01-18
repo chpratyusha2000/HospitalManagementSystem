@@ -1,0 +1,93 @@
+<div class="container-fluid">
+  <h1 class="text-center"> {{title1}} </h1>
+  <h1 class="text-center"> {{title2}} </h1>
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+    <ul class = "navbar-nav">
+        <li class = "navbar-nav pull-left">
+            <a routerLink="doctors" routerLinkActive="active" class="nav-link" class="btn btn-primary active" 
+            role="button">Doctor List</a>
+        </li>
+        <li class = "navbar-nav pull-left">
+            <a routerLink="create-doctor" routerLinkActive="active" class="nav-link" class="btn btn-primary active" 
+            role="button">Add Doctor</a>
+        </li>
+        <li class = "navbar-nav pull-right">
+          <a routerLink="patients" routerLinkActive="active" class="nav-link" class="btn btn-primary active" 
+          role="button">Patient List</a>
+      </li>
+      <li class = "navbar-nav pull-right">
+          <a routerLink="create-patient" routerLinkActive="active" class="nav-link" class="btn btn-primary active" 
+          role="button">Add Patient</a>
+      </li>
+    </ul>
+  </nav>
+  <div class = "container">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+
+<footer class="page-footer font-small blue pt-4">
+
+
+  <div class="container-fluid text-center text-md-left">
+
+    <div class="row">
+
+      <div class="col-md-12 mt-md-0 mt-3">
+
+        <h5 class="text-uppercase"> Hospital is a heaven where humans were remodeled to be Healthy and Happier</h5>
+        <h5>Don't worry you are in Safe hands!!!</h5>
+
+      </div>
+      <hr class="clearfix w-100 d-md-none pb-3">
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h5 class="text-uppercase">Advancements</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">Advance Medical Research Laboratories</a>
+          </li>
+          <li>
+            <a href="#!">Advance Robotic Surgery</a>
+          </li>
+          <li>
+            <a href="#!">Organ Transplantation</a>
+          </li>
+          <li>
+            <a href="#!">Physiotherapy</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="col-md-3 mb-md-0 mb-3">
+        <h5 class="text-uppercase">Additional Facilites</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">24/7 Ambulance Service</a>
+          </li>
+          <li>
+            <a href="#!">Pharmacitucals</a>
+          </li>
+          <li>
+            <a href="#!">Free Online Consultation with no charges</a>
+          </li>
+          <li>
+            <a href="#!">Cafeteria</a>
+          </li>
+          <li>
+            <a href="#!">Vast Waiting Lobby's</a>
+          </li>
+        </ul>
+
+      </div>
+
+
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-6">© 2021 Copyright
+    <br>
+    <a>reach us at:</a>
+    <a href="#!"> Wecareforyou.com</a>
+  </div>
+</footer>

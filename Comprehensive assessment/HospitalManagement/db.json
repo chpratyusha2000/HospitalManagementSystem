@@ -1,0 +1,32 @@
+{
+  "signupUser": [
+    {
+      "fullname": "Mohamed Irfan N",
+      "email": "irfan123@gmail.com",
+      "password": "1234567",
+      "mobile": 7829391211,
+      "id": 1
+    },
+    {
+      "fullname": "S Karthikeyan",
+      "email": "sk123@gmail.com",
+      "password": "12345678",
+      "mobile": 8829329192,
+      "id": 2
+    },
+    {
+      "fullname": "question",
+      "email": "ques@gmail.com",
+      "password": "963258",
+      "mobile": 1122334455,
+      "id": 4
+    },
+    {
+      "fullname": "abcdef",
+      "email": "a@gmail.com",
+      "password": "741258",
+      "mobile": 123456789,
+      "id": 5
+    }
+  ]
+}
